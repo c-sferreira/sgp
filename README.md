@@ -1,44 +1,44 @@
-<h1>Digital Innovation - Desenvolvendo um sistema de gerenciamento de pessoas em API REST com Spring Boot</h1>
+<h1>Digital Innovation - Developing a REST API people management system with Spring Boot</h1>
 
-Desenvolvimento de um pequeno sistema para o gerenciamento de pessoas de uma empresa através de uma API REST, criada com o Spring Boot.
+Development of a small system for managing people in a company through a REST API, created with Spring Boot.
 
-Foram desenvolvidos e abordados os seguintes tópicos:
+The following were elaborated and standardized:
 
-* Setup inicial de projeto com o Spring Boot Initialzr 
-* Criação de modelo de dados para o mapeamento de entidades em bancos de dados
-* Desenvolvimento de operações de gerenciamento de usuários (Cadastro, leitura, atualização e remoção de pessoas de um sistema).
-* Relação de cada uma das operações acima com o padrão arquitetural REST, e a explicação de cada um dos conceitos REST envolvidos durante o desenvolvimento do projeto.
-* Desenvolvimento de testes unitários para validação das funcionalidades
-* Implantação do sistema na nuvem através do Heroku
+* Initial project setup with Spring Boot Initializer
+* Creation of data model for mapping entities in databases
+* Development of user management management (Registration, reading, updating and removing people from a system).
+* Relation of each of the above operations with the REST architectural pattern, and an explanation of each of the REST concepts involved during project development.
+* Development of unit tests for functionality validation
+* Cloud system deployment through Heroku
 
-Para executar o projeto no terminal, digite o seguinte comando:
+To run the project without a terminal, type the following command:
 
 ```shell script
 mvn spring-boot:run 
 ```
 
-Após executar o comando acima, basta apenas abrir o seguinte endereço e visualizar a execução do projeto:
+After executing the above command, just open the following address and view the project execution:
 
 ```
 http://localhost:8080/api/v1/people
 ```
 
 
-São necessários os seguintes pré-requisitos para a execução do projeto desenvolvido durante a aula:
+The following prerequisites are necessary for the execution of the project developed during the class:
 
-* Java 11 ou superior.
-* Maven 3.6.3 ou superior.
+* Java 11 or higher.
+* Maven 3.6.3 or higher.
 
-Deploy realizado no Heroku.
+Deploy performed on Heroku.
 
-Links úteis:
+Useful links:
 
-* [Site oficial do Spring](https://spring.io/)
-* [Site oficial do Spring Initialzr, para setup do projeto](https://start.spring.io/)
-* [Site oficial do Heroku](https://www.heroku.com/)
-* [Documentação oficial do Lombok](https://projectlombok.org/)
-* [Documentação oficial do Map Struct](https://mapstruct.org/)
-* [Referência para o padrão arquitetural REST](https://restfulapi.net/)
+* [Official Spring website](https://spring.io/)
+* [Official Spring Initialzr site for project setup](https://start.spring.io/)
+* [Heroku's official website](https://www.heroku.com/)
+* [Official Lombok Documentation](https://projectlombok.org/)
+* [Official Map Struct Documentation](https://mapstruct.org/)
+* [Reference for the REST architectural standard](https://restfulapi.net/)
 
-[Neste link](https://drive.google.com/file/d/1crVPOVl6ok2HeYjh3fjQuGQn2lDZVHrn/view?usp=sharing), seguem os slides apresentados como o roteiro utilizado para o desenvolvimento do projeto.
 
+[On this link](https://drive.google.com/file/d/1crVPOVl6ok2HeYjh3fjQuGQn2lDZVHrn/view?usp=sharing), follow the slides presented as the script used for the development of the project.
